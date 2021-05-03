@@ -1,28 +1,28 @@
-{% extends 'shop/base.html' %}
+{% extends "shop/base.html" %}
 
 {% block title %}
-    Kasa
+  Do kasy
 {% endblock %}
 
 {% block content %}
-    <h1>Kasa</h1>
+  <h1>Do kasy</h1>
 
-    <div class="order-info">
-        <h3>Zamówienie</h3>
-        <ul>
-            {% for item in cart %}
-            <li>
-                {{ item.quantity }}x {{ item.product.name }}
-                <span>{{ item.total_price }} zł</span>
-            </li>
-            {% endfor %}
-        </ul>
-        <p>Wartość całkowita: {{ cart.get_total_price }} zł</p>
-    </div>
+  <div class="order-info">
+    <h3>Twoje zamówienie</h3>
+    <ul>
+      {% for item in cart %}
+        <li>
+          {{ item.quantity }}x {{ item.product.name }}
+          <span>${{ item.total_price }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+    <p>Razem:${{ cart.get_total_price }}</p>
+  </div>
 
-    <form action="." method="post" class="order-form">
-        {{ form.as_p }}
-        <p><input type="submit" value="Złóż zamówienie"></p>
-        {% csrf_token %}
-    </form>
+  <form method="post" class="order-form">
+    {{ form.as_p }}
+    <p><input type="submit" value="Złóż zamówienie"></p>
+    {% csrf_token %}
+  </form>
 {% endblock %}

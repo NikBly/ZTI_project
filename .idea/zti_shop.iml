@@ -29,6 +29,7 @@
         <option value="$MODULE_DIR$/myshop/cart/templates" />
         <option value="$MODULE_DIR$/myshop/shop/templates/shop" />
         <option value="$MODULE_DIR$/myshop/orders/templates" />
+        <option value="$MODULE_DIR$/myshop/account/templates" />
       </list>
     </option>
   </component>

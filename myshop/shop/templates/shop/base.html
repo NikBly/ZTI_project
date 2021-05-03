@@ -12,6 +12,16 @@
     <a href="/" class="logo">SKLEP</a>
 </div>
 <div id="subheader">
+    {% if request.user.is_authenticated %}
+        <ul class="menu">
+            <li {% if section == 'dashboard' %}class="selected"{% endif %}>
+                <a href="{% url 'dashboard' %}">PANEL GŁÓWNY</a>
+            </li>
+            <li {% if section == 'product' %}class="selected"{% endif %}>
+                <a href="#">Zamówienia</a>
+            </li>
+        </ul>
+    {% endif %}
     <div class="cart">
         {% with total_items=cart|length %}
             {% if cart|length > 0 %}
@@ -21,9 +31,17 @@
                  {{ cart.get_total_price }} zł
              </a>
             {% else %}
-            Koszyk jest pusty.
             {% endif %}
         {% endwith %}
+    <span class="user">
+            {% if request.user.is_authenticated %}
+                Witaj. {{ request.user.first_name }}!
+                <a href="{% url 'logout' %}">WYLOGUJ</a>
+            {% else %}
+                <a href="{% url 'login' %}">ZALOGUJ</a>
+                <a href="{% url 'register' %}">NOWE KONTO</a>
+            {% endif %}
+        </span>
     </div>
 </div>
 <div id="content">
