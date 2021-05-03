@@ -15,7 +15,7 @@
     {% if request.user.is_authenticated %}
         <ul class="menu">
             <li {% if section == 'dashboard' %}class="selected"{% endif %}>
-                <a href="{% url 'dashboard' %}">PANEL GŁÓWNY</a>
+                <a href="{% url 'dashboard' %}">Profil użytkownika</a>
             </li>
             <li {% if section == 'product' %}class="selected"{% endif %}>
                 <a href="#">Zamówienia</a>

@@ -2,42 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af5739c-00f5-4d62-b008-c6766afd6a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myshop/account/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/account/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/account/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/account/register_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/base_login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/registration/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myshop/account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/zti_shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zti_shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/cart/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/cart/templates/cart/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/account/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/account/templates/account/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/templates/account/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/account/templates/base_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/templates/base_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myshop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/myshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/myshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/myshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/orders/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/orders/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/orders/templates/orders/order/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/orders/templates/orders/order/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/orders/templates/orders/order/created.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/orders/templates/orders/order/created.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/orders/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/shop/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/shop/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/shop/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/static/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myshop/shop/templates/shop/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +30,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
@@ -143,6 +124,7 @@
       <workItem from="1619643906698" duration="2881000" />
       <workItem from="1619646823992" duration="1147000" />
       <workItem from="1620067376662" duration="428000" />
+      <workItem from="1620069119730" duration="8638000" />
     </task>
     <servers />
   </component>
