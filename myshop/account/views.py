@@ -21,7 +21,7 @@ def user_login(request):
             if user is not None:
                 if user.is_active:
                     login(request, user)
-                    return HttpResponseRedirect("/") #(to przeprowadza do strony głównej
+                    return HttpResponseRedirect("/")
 
                 else:
                     return HttpResponse('Konto zablokowane')
@@ -69,8 +69,11 @@ def edit(request):
             profile_form.save()
             messages.success(request, 'Uaktualnienie profilu '\
                              'zakończyło się sukcese.')
+
+        else:
+            messages.success(request, 'Wystapił błąd podczas uaktualniania profilu.')
+
     else:
-        messages.success(request, 'Wystapił błąd podczas uaktualniania profilu.')
         user_form = UserEditForm(instance=request.user)
         profile_form = ProfileEditForm(instance=profile)
     return render(request,

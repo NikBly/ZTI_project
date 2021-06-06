@@ -14,7 +14,7 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/myshop" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (zti_shop)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
@@ -30,6 +30,7 @@
         <option value="$MODULE_DIR$/myshop/shop/templates/shop" />
         <option value="$MODULE_DIR$/myshop/orders/templates" />
         <option value="$MODULE_DIR$/myshop/account/templates" />
+        <option value="$MODULE_DIR$/myshop/payment/templates" />
       </list>
     </option>
   </component>

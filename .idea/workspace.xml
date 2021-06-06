@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af5739c-00f5-4d62-b008-c6766afd6a61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/account/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/account/templates/account/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/templates/account/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/account/templates/base_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/templates/base_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/shop/templates/shop/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/shop/templates/shop/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="7af5739c-00f5-4d62-b008-c6766afd6a61" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -38,9 +28,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1qRXxMIbkmt66KHWA66FtnVwSP3" />
   <component name="ProjectViewState">
@@ -59,6 +46,35 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Prywatne\PycharmProjects\zti_shop\myshop\orders\migrations" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zti_shop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myshop/myshop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myshop/myshop/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.settings" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -124,7 +140,29 @@
       <workItem from="1619643906698" duration="2881000" />
       <workItem from="1619646823992" duration="1147000" />
       <workItem from="1620067376662" duration="428000" />
-      <workItem from="1620069119730" duration="8638000" />
+      <workItem from="1620069119730" duration="14452000" />
+      <workItem from="1620109539620" duration="2412000" />
+      <workItem from="1620120707519" duration="6991000" />
+      <workItem from="1620127802705" duration="541000" />
+      <workItem from="1620679118403" duration="219000" />
+      <workItem from="1620682188150" duration="9340000" />
+      <workItem from="1620721784720" duration="64000" />
+      <workItem from="1621317849485" duration="2416000" />
+      <workItem from="1621523276304" duration="7000" />
+      <workItem from="1621523903252" duration="1187000" />
+      <workItem from="1621785463766" duration="743000" />
+      <workItem from="1622064626014" duration="19000" />
+      <workItem from="1622064645941" duration="14000" />
+      <workItem from="1622064748514" duration="5903000" />
+      <workItem from="1622114263721" duration="1784000" />
+      <workItem from="1622761371757" duration="594000" />
+      <workItem from="1622907661669" duration="26000" />
+      <workItem from="1622927211614" duration="594000" />
+      <workItem from="1623000485102" duration="1144000" />
+      <workItem from="1623001658830" duration="5809000" />
+      <workItem from="1623008220661" duration="2624000" />
+      <workItem from="1623010883807" duration="3006000" />
+      <workItem from="1623014008620" duration="89000" />
     </task>
     <servers />
   </component>
@@ -142,5 +180,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/zti_shop$settings.coverage" NAME="settings Coverage Results" MODIFIED="1623001585171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myshop/myshop" />
   </component>
 </project>
